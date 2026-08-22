@@ -1,0 +1,19 @@
+x=5
+if type(x) is int:
+    print("True")
+else:
+    print("False")
+
+x=5.7
+if type(x) is not float:
+    print("True")
+else:
+   print("false") 
+
+x=10
+y=10
+if x is y:
+       print("x and y are same")
+y=30
+if x is not y:
+    print("x and y are different identity")
