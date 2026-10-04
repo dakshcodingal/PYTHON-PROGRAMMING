@@ -33,4 +33,23 @@ while chore_num <= Total_chores:
         print()
 
 
-        print("===== All chores complete!=====")
+print("===== All chores complete! =====")
+print("Great work finishing your entire checklist today!\n")
+
+
+print("Now let's safely peak at an infinite loop... ")
+test_value=0
+safety_counter=0
+while test_value <= 0:
+    print("This condition never changes, so this would run forever!")
+    safety_counter +=1
+    if safety_counter ==3:
+        print("(stopping here on purpose - a real infinite loop never stops on it's own!)")
+        break
+
+
+print("\n==== Chore checklist summary ====")
+print("Chores assigned today:", original_count)
+print("Chores completed:", completed_count)
+print("Chores remaining:", Total_chores - completed_count)
+print("/////////////")
