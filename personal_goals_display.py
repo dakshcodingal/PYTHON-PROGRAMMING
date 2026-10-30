@@ -1,21 +1,21 @@
-# //////////////////////
+print() //////////////////////
 # PERSONAL GOALS DISPLAY
 # //////////////////////
 
-# ---------- PART 1: import the keyword module ----------
-# YOUR CODE HERE
+# 
+# 
 # One line. You need this for Part 7.
 
 
 # ---------- PART 2: ask the three questions ----------
-# YOUR CODE HERE
+# 
 # Use input() three times and store each answer in its own variable:
 #   person_name    <- "Enter your name: "
 #   goal_name      <- "Enter one skill you want to get better at: "
 #   target_month   <- "Enter the month you want to reach it by: "
 
 
-# ///////// PART 3: store the practice time ////////////
+# 
 # YOUR CODE HERE
 # Store the number 30 in a variable called daily_minutes.
 # Type it as 30, NOT as "30".
