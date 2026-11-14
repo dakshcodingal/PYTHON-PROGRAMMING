@@ -1,0 +1,31 @@
+# ////////////////////
+# Function Calculator
+# ////////////////////
+
+
+
+def add(a, b):
+return a+b
+def subtract(a, b):
+return a-b
+def multiply(a, b):
+return a*b
+def divide(a, b):
+return a/b
+
+
+
+print("Function calculator")
+
+
+
+Try block:
+int(input("What is the first number and the second number?"))
+input("What is the operation? (add, subtract, multiply, divide)")
+If:
+operation == "add": print("The answer is: " + str(add(a, b)))
+For other words print("Unknown operation.")
+Add:
+except ValueError:for letters instead of numbers.
+except ZeroDivisionError: for dividing by zero.
+print("Thank you for using the function calculator. Goodbye!")
